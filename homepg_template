@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://img.freepik.com/premium-photo/stock-market-chart-steady-upward-trajectory-financial-success_1034303-10654.jpg?w=2000') no-repeat center center/cover;
+        }
+        .hero {
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero button {
+            background-color: #007bff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: rgb(13, 12, 12);
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .hero button:hover {
+            background-color: #0056b3;
+        }
+        .features, .statistics, .testimonials, .footer {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .features .feature-item, .statistics .stat-item, .testimonials .testimonial-item {
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+            width: 250px;
+            text-align: left;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature-item h3, .stat-item h3, .testimonial-item p {
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>Welcome to Our Trading Platform</h1>
+    <p>Your one-stop solution for all your trading needs. Join us and start trading today!</p>
+    <button>Get Started</button>
+</div>
+
+<div class="features">
+    <h2>Features</h2>
+    <div class="feature-item">
+        <h3>Real-Time Data</h3>
+        <p>Stay updated with real-time market data and trends.</p>
+    </div>
+    <div class="feature-item">
+        <h3>User-Friendly Interface</h3>
+        <p>Trade with ease using our intuitive platform.</p>
+    </div>
+    <div class="feature-item">
+        <h3>Advanced Tools</h3>
+        <p>Utilize advanced trading tools and analytics.</p>
+    </div>
+</div>
+
+<div class="statistics">
+    <h2>Our Achievements</h2>
+    <div class="stat-item">
+        <h3>1M+ Users</h3>
+        <p>Trusted by over a million traders worldwide.</p>
+    </div>
+    <div class="stat-item">
+        <h3>100M+ Trades</h3>
+        <p>Millions of trades executed successfully.</p>
+    </div>
+</div>
+
+<div class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-item">
+        <p>"The best trading platform I've used. Highly recommend!"</p>
+        <p>- John Doe</p>
+    </div>
+    <div class="testimonial-item">
+        <p>"Excellent customer service and great tools."</p>
+        <p>- Jane Smith</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Trading Platform. All rights reserved.</p>
+    <p><a href="#">About Us</a> | <a href="#">Contact</a> | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</div>
+
+</body>
+</html>
